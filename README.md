@@ -9,6 +9,5 @@ hacks gec &amp; I have made for PwnAdventure3
 ### GAME LAUNCH
 `LD_PRELOAD=/path/to/test.so ./PwnAdventureExecutable`
 
-`g++ whats the rest of this command?`
-
+`g++ test.cpp -std=c++11 -shared -o test.so -fPIC`
 
